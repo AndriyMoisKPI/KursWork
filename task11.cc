@@ -1,6 +1,5 @@
 #include <iostream>
-<<<<<<< Updated upstream
-=======
+
 using namespace std;
 
 #define AREA_SIZE 9
@@ -211,4 +210,3 @@ int main() {
     return 0;
 }
 
->>>>>>> Stashed changes
