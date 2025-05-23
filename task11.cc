@@ -69,11 +69,12 @@ int main() {
                         } else {
                             cout << " ";
                         }
-                        cout << "|\n";
                     }
-                    cout << "     -----------\n";
-                    return 0;
+                    cout << "|\n";
                 }
+                cout << "     -----------\n";
+                clearShipArea();
+            } else {
                 cout << "Result not found!\n";
             }
         } else if (choice == 2) {
@@ -81,7 +82,6 @@ int main() {
             break;
         } else {
             cout << "Invalid choice. Please try again.\n";
-
         }
     }
     return 0;
